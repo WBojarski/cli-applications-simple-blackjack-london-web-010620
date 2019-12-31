@@ -41,6 +41,7 @@ def hit?(display_card_total)
   if get_user_input == 'h'
     total += deal_card
   end
+  total
     
   
   
