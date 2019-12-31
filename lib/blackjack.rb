@@ -35,12 +35,14 @@ def hit?(display_card_total)
   user_input = get_user_input
   
 
+  puts display_card_total
+
   if user_input == 'h'
     deal_card
   end
   
-  display_card_total
-  user_input
+  
+  
 
     
   
